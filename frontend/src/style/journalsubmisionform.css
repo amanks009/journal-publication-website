@@ -1,0 +1,60 @@
+.form-container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5%;
+  }
+  /* journalsubmisionform.css */
+.text-danger {
+    color: #dc3545; /* Bootstrap's default danger color */
+    margin-left: 2px; /* Add some spacing between the label and the asterisk */
+  }
+
+  .journal-instructions {
+    padding: 5%;
+    width: 90%;
+    line-height: 1.5;
+    font-size: 1.8rem;
+  }
+  
+  .table-blocks{
+    width: 5%;
+    /* text-align: center; */
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+
+  @media ( max-width: 59em){
+    .form-container{
+      width: 70%;
+    }
+
+    .table-blocks{
+    font-size: small;
+    }
+    
+  }
+  @media ( max-width: 25em){
+    .form-container{
+        width: 80%;
+        /* background-color: black; */
+    }
+    .table-blocks{
+      font-size: smaller;
+      }
+  }

@@ -1,0 +1,10 @@
+.profile-image{
+  width: 80%;
+}
+@media (max-width: 34em){
+.profile-image {
+    height: 32rem;
+    width: 100%;
+    grid-row: 1;
+}
+}
